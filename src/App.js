@@ -1,17 +1,7 @@
 import React,{ Component } from 'react';
 
 export default class App extends Component {
-  constructor(props){
-    super(props);
-    this.state={
-      userName: "My Name",
-      todoItems: [
-        {action: "Complete Lab 2", done: false },
-        {action: "Publish to Github", done: false},
-        {action: "Submit Assignment", done: false}
-      ]  
-    };
-    }
+
 
     
 updateNewTextValue = event => {
